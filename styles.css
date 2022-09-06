@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  page-break-before: always;
+  display: flex;
+  align-items: center;
+  width: 210mm;
+  height: 297mm;
+}
+
+.table {
+  border: 2px solid black;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 2px;
+  background-color: black;
+}
+
+.entry {
+  /* min-width: 0; */
+  text-align: center;
+  font-family: monospace;
+  background-color: white;
+}
+
+.gap {
+  background-color: #dee2e6;
+  /* color: white; */
+}
+
+.max {
+  background-color: black;
+  color: white;
+}
